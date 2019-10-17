@@ -1,5 +1,8 @@
-body {
+body, html {
   background-color: #c0ebb7;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 255, 1), rgba(255, 255, 0, 0.1)),
+  url("../img/barcelona.jpg");
 }
 .well {
   background-color: #ebbab7;
