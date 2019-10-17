@@ -1,19 +1,14 @@
 body, html {
-  /* background-image: url("../img/castle.jpg"); */
-
-
-
-  /* background: linear-gradient(to bottom,  rgba(0,62,161,0) 90%,rgba(14,73,170,1) 91%,rgba(137,168,255,1) 100%); */
-
-
-
   background-image: linear-gradient(to top,  rgba(0,62,161,0) 90%,rgba(14,73,170,1) 91%,rgba(137,168,255,1) 100%),
   url("../img/castle.jpg");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: #003EA1;
+}
 
+.panel {
+  opacity: .95;
 }
 .well {
   background-color: #ebbab7;
@@ -34,6 +29,11 @@ h3 {
   padding-top: 12px;
   padding-bottom: 24px;
   font-family: 'Mansalva', cursive;
+  color: white;
+}
+
+blockquote {
+  color: white;
 }
 
 .imageInFooter {
